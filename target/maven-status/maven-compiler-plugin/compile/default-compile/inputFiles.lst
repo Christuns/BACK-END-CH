@@ -1,0 +1,13 @@
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\BlogApplication.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\Control\UserController.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\domainModel\Post.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\domainModel\Profile.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\domainModel\repositories\NonPersistentUserRepository.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\domainModel\repositories\UserRepository.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\domainModel\repositories\UserRepositoryCustom.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\domainModel\repositories\UserRepositoryImpl.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\domainModel\Role.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\domainModel\Tag.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\domainModel\User.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\Service\UserService.java
+C:\Users\Chris\Downloads\BACK-END-CH\BACK-END-CH-main\Blog\src\main\java\br\edu\unipaulista\backend\Blog\Service\UseServiceImpl.java
