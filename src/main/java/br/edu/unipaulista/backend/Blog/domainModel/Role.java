@@ -15,7 +15,7 @@ public class Role {
     @Column(name = "ID")
     private @Getter @Setter long id;
 
-    @Column(name = "NAEME", nullable = false, length = 20)
+    @Column(name = "NAME", nullable = false, length = 20)
     private @Getter @Setter String name;
 
     @ManyToMany

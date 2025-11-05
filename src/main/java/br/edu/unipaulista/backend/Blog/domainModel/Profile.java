@@ -18,4 +18,8 @@ public class Profile {
 
     @OneToOne
     private @Getter @Setter User user;
+
+    public Profile orElse(Object o){
+        return null;
+    }
 }

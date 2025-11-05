@@ -1,7 +1,6 @@
 package br.edu.unipaulista.backend.Blog.Service;
 
 import br.edu.unipaulista.backend.Blog.domainModel.User;
-import br.edu.unipaulista.backend.Blog.domainModel.repositories.NonPersistentUserRepository;
 import br.edu.unipaulista.backend.Blog.domainModel.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
