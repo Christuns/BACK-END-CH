@@ -15,7 +15,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TagController {
     private final TagService tagService;
-
     @GetMapping
     public ResponseEntity<List<Tag>> findAll(){
         return ResponseEntity.ok(this.tagService.findAll());
