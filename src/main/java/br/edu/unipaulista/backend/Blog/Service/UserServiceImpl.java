@@ -3,6 +3,8 @@ package br.edu.unipaulista.backend.Blog.Service;
 import br.edu.unipaulista.backend.Blog.domainModel.User;
 import br.edu.unipaulista.backend.Blog.domainModel.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -47,5 +49,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public User partialUpdate(User user) {
         return this.repository.save(user);
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        return this.repository.findByname(username).orElse(null).get();
     }
 }

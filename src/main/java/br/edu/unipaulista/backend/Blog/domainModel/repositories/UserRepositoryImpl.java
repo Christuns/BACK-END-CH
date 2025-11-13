@@ -52,5 +52,6 @@ public class UserRepositoryImpl implements UserRepositoryCustom<User, UUID> {
                 )
                 .orderBy(criteriaBuilder.asc(root.get("name")));
         return this.entityManager.createQuery(criteriaQuery).getResultList();
+
     }
 }

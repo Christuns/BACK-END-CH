@@ -45,6 +45,8 @@ public interface UserRepository extends
     List<User> findMinPostAndNameLike(@Param("minPosts") int minPosts, @Param("namePart") String namePart);
 
 
+
+
     interface UserRepositoryCustom {
     }
 }
