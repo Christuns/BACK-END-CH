@@ -19,7 +19,6 @@ public interface UserRepository extends
         SELECT u FROM User u WHERE u.email= :email
 """)
     public Optional<User> findByEmail(String email);
-
     public Optional<User> findByName(String name);
     public Optional<User> findByNameAndEmail(String name, String email);
     public List<User> findByNameStartingWithAndNameEndingWith(String name1, String name2);
@@ -43,8 +42,6 @@ public interface UserRepository extends
     order by u.name asc
 """)
     List<User> findMinPostAndNameLike(@Param("minPosts") int minPosts, @Param("namePart") String namePart);
-
-
 
 
     interface UserRepositoryCustom {
